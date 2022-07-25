@@ -63,7 +63,8 @@ span {
   color: var(--main-color);
 }
 
-
+input,
+textarea {}
 
 /* Scrool bar style */
 
@@ -121,12 +122,17 @@ span {
 .cta-btn-2 {
   /* padding: 10px 10px; */
   font-size: 18px;
-  color: var(--main-color);
+  border-radius: 10px;
+  padding: 5px 25px;
+  color: var(--white);
+  border: none;
+  background-color: var(--dark);
   transition: all 0.4s linear;
 }
 
 .cta-btn-2:hover {
-  color: var(--heading-color);
+  background-color: var(--white);
+  color: var(--dark);
   transition: all 0.4s linear;
 }
 
@@ -151,7 +157,7 @@ span {
 
 .banner {
   /* background-color: #3D3D3D; */
-  background-image: url(/assets/img/banner-bg.jpg);
+  background-image: url(../img/banner-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
@@ -347,13 +353,14 @@ span {
   border-radius: 50%;
   border: 3px solid var(--yellow);
 }
+
 /* -------------------------------- Number section style start here  */
 
-#nuber-sec{
-background-color: var(--yellow);
+#nuber-sec {
+  background-color: var(--yellow);
 }
 
-.number-box{
+.number-box {
   border: 3px solid var(--white);
   color: var(--white);
   /* padding: 20px; */
@@ -362,33 +369,64 @@ background-color: var(--yellow);
   /* height: 210px; */
 }
 
-.number-box i{
-font-size: 50px;
+.number-box i {
+  font-size: 50px;
 }
-.number-box p{
-color: var(--dark);
-font-weight: 700 !important;
+
+.number-box p {
+  color: var(--dark);
+  font-weight: 700 !important;
 }
 
 /* -------------------------------- Contact section style start here  */
 
+.contact {
+  position: relative;
+}
 
+.contact .bg-dark {
+  position: absolute;
+  width: 80%;
+  height: 93%;
+  bottom: 0;
+  background-color: var(--dark);
+  z-index: -1;
+  border-radius: 0px 10px 10px 0px;
 
+}
 
+.bg-dark h3 {
+  position: absolute;
+    color: var(--white);
+    right: 220px;
+    top: -14px;
+    font-size: 125px;
+    opacity: 0.20;
+}
 
+.contact-content {
+  color: var(--white);
+  padding-top:215px;
+}
 
+.contact-form {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--yellow);
+  margin-top: 120px;
+  max-width: 400px;
+}
 
+.contact-form input,
+textarea {
+  width: 100%;
+  border: none;
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin-bottom: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer {
+  background-color: var(--dark);
+}
