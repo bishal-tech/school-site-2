@@ -397,16 +397,16 @@ span {
 
 .bg-dark h3 {
   position: absolute;
-    color: var(--white);
-    right: 220px;
-    top: -14px;
-    font-size: 125px;
-    opacity: 0.20;
+  color: var(--white);
+  right: 220px;
+  top: -14px;
+  font-size: 125px;
+  opacity: 0.20;
 }
 
 .contact-content {
   color: var(--white);
-  padding-top:215px;
+  padding-top: 215px;
 }
 
 .contact-form {
@@ -427,6 +427,81 @@ textarea {
   margin-bottom: 10px;
 }
 
+.sports-slider {
+  display: flex;
+  gap: 20px;
+}
+
+.sports-slide {
+  margin: auto 0px;
+}
+
+.sports-slide img {
+  border-radius: 10px;
+  width: 200px;
+  height: 270px;
+
+}
+
+.sports-active {
+  width: 240px !important;
+  height: 310px !important;
+}
+
+
 footer {
   background-color: var(--dark);
+  color: var(--white);
 }
+
+footer a {
+  color: var(--white);
+  transition: all 0.5s linear;
+}
+
+footer a:hover {
+  color: var(--yellow);
+  margin-left: 10px;
+  transition: all 0.5s linear;
+
+}
+footer li{
+  margin-bottom: 15px;
+}
+
+.social-link{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+}
+
+.social-link a:hover{
+  color: var(--yellow);
+  border: 2px solid var(--yellow);
+}
+.social-link a{
+  padding: 20px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-link a i{
+  font-size:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
