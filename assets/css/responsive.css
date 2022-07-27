@@ -6,6 +6,10 @@
         margin-top: -40px;
     }
 
+    #shotcut-btns .row {
+        gap: 20px;
+    }
+
     .about-img-slider {
         margin-top: 40px;
     }
@@ -78,13 +82,22 @@
     }
 }
 
-@media (max-width: 1000px) {}
+@media (max-width: 1000px) {
+    .cta-btn-group {
+        top: 11px;
+    }
+}
 
 @media (max-width: 1200px) {
+    .cta-btn-group {
+        top: 11px;
+    }
+
     .gallery-slider img {
         width: 49%;
     }
-    .bg-dark h3{
+
+    .bg-dark h3 {
         font-size: 125px;
     }
 }

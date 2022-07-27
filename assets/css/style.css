@@ -98,11 +98,6 @@ span {
   padding: 25px 0x !important;
 }
 
-
-.text-white {
-  color: var(--white);
-}
-
 .cta-btn-1 {
   padding: 10px 30px;
   font-size: 18px;
@@ -186,13 +181,16 @@ span {
 .shotcut-box {
   display: flex;
   flex-direction: column;
-  /* border-radius: 5px; */
+  border-radius: 15px;
   background-color: var(--yellow);
   padding: 20px;
   /* min-height: 220px; */
   text-align: center;
   z-index: 2;
   transition: all 0.3s linear;
+
+  border-bottom: 3px solid var(--dark);
+  border-top: 3px solid var(--dark);
 
 }
 
@@ -211,6 +209,10 @@ span {
 .sh-active {
   background-color: var(--dark);
   color: var(--white);
+  box-shadow: var(--shadow);
+  border-bottom: 2px solid var(--yellow);
+  border-top: 2px solid var(--yellow);
+  margin-top: -10px;
   transition: all 0.3s linear;
 }
 
@@ -339,7 +341,10 @@ span {
   padding: 20px;
   min-width: 275px;
 }
-
+.review-active{
+  border-bottom: 4px solid var(--yellow);
+  box-shadow: var(--shadow);
+}
 .review-img {
   display: flex;
   align-items: center;
@@ -414,6 +419,7 @@ span {
   background-color: var(--yellow);
   margin-top: 120px;
   max-width: 400px;
+  box-shadow: var(--shadow);
 }
 
 .contact-form input,
@@ -437,14 +443,16 @@ textarea {
 
 .sports-slide img {
   border-radius: 10px;
-  width: 200px;
-  height: 270px;
-
+  width: 160px;
+  height: 230px;
 }
 
 .sports-active {
   width: 240px !important;
   height: 310px !important;
+  box-shadow: var(--shadow);
+  border-bottom: 4px solid var(--yellow);
+  border-top: 4px solid var(--yellow);
 }
 
 
@@ -464,22 +472,24 @@ footer a:hover {
   transition: all 0.5s linear;
 
 }
-footer li{
+
+footer li {
   margin-bottom: 15px;
 }
 
-.social-link{
+.social-link {
   display: flex;
   gap: 20px;
   align-items: center;
 
 }
 
-.social-link a:hover{
+.social-link a:hover {
   color: var(--yellow);
   border: 2px solid var(--yellow);
 }
-.social-link a{
+
+.social-link a {
   padding: 20px;
   height: 40px;
   width: 40px;
@@ -489,18 +499,7 @@ footer li{
   justify-content: center;
   align-items: center;
 }
-.social-link a i{
-  font-size:20px;
+
+.social-link a i {
+  font-size: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
