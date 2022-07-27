@@ -232,6 +232,18 @@ span {
   -moz-box-shadow: 5px 6px 10px -5px rgba(0, 0, 0, 0.68);
 }
 
+.about-sec .carousel-indicators {
+  bottom: -50px;
+}
+
+.about-sec .carousel-indicators button {
+  margin-top: 10px;
+  background-color: var(--dark);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
 /* -------------------------------- About section style start here  */
 
 #teachers {
@@ -250,6 +262,7 @@ span {
   border-radius: 10px;
   /* color: var(--white); */
   padding: 20px;
+  margin: 0px 10px;
 }
 
 .teacher-img {
@@ -340,11 +353,16 @@ span {
   border-radius: 10px;
   padding: 20px;
   min-width: 275px;
+  margin: 0px 10px;
+  border-bottom: 4px solid var(--yellow) !important;
+
 }
-.review-active{
-  border-bottom: 4px solid var(--yellow);
+
+.review-active {
+  border-bottom: 4px solid var(--yellow) !important;
   box-shadow: var(--shadow);
 }
+
 .review-img {
   display: flex;
   align-items: center;
@@ -432,13 +450,15 @@ textarea {
   margin-bottom: 10px;
 }
 
+/* -------------------------------- Sports section style start here  */
+
 .sports-slider {
   display: flex;
   gap: 20px;
 }
 
 .sports-slide {
-  margin: auto 0px;
+  margin: auto 10px;
 }
 
 .sports-slide img {

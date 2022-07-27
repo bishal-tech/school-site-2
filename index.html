@@ -110,7 +110,7 @@
             <div class="row">
                 <div class="col-md-3 col-sm-12">
                     <div class="shotcut-box">
-                        <div class="schortcut-icons">
+                        <div class="schortcut-icons ">
                             <i class="fas fa-graduation-cap"></i>
                             <h3>Student </h3>
                         </div>
@@ -120,7 +120,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-12">
-                    <div class="shotcut-box">
+                    <div class="shotcut-box sh-active">
                         <div class="schortcut-icons">
                             <i class="fas fa-chalkboard-teacher"></i>
                             <h3>Teachers </h3>
@@ -145,7 +145,7 @@
     </section>
 
     <!------------------------------ About section start here  -->
-    <section>
+    <section class="about-sec">
         <div class="container py-5">
             <div class="row">
                 <div class="col-md-6 col-sm-12 m-auto">
@@ -157,11 +157,48 @@
                     <a class="cta-btn-1" href="#">Know more</a>
                 </div>
                 <div class="col-md-6 col-sm-12 m-auto">
-                    <div class="about-img-slider">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner about-img-slider">
+                            <div class="carousel-item about-img-slide active">
+                                <div class="">
+                                    <img class="img-fluid" src="assets/img/banner-bg.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="about-img-slide">
+                                    <img class="img-fluid" src="assets/img/banner-bg.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="about-img-slide">
+                                    <img class="img-fluid" src="assets/img/banner-bg.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <!-- <div class="about-img-slider">
                         <div class="about-img-slide">
                             <img class="img-fluid" src="assets/img/banner-bg.jpg" alt="">
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -173,8 +210,11 @@
     <section id="teachers">
         <div class="container py-5">
             <h2 class="text-center ">Our best teachers</h2>
-            <p class="text-center mb-5 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a amet unde.</p>
+            <p class="text-center mb-5 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a
+                amet unde.</p>
+
             <div class="teacher-slider">
+
                 <div class="teacher-slide">
                     <div class="teacher-img">
                         <img class="img-fluid" src="assets/img/teacher-2.jpg" alt="">
@@ -233,7 +273,67 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iste mollitia non eaque minus
                         accusamus vitae possimus! Tenetur dolorem voluptate eligendi iusto odit!</p>
                 </div>
+                <div class="teacher-slide">
+                    <div class="teacher-img">
+                        <img class="img-fluid" src="assets/img/teacher-2.jpg" alt="">
+                        <hr>
+                        <div class="name">
+                            <h3>Sima Malakar</h3>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <p>Biology | M.sc In kolkata</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iste mollitia non eaque minus
+                        accusamus vitae possimus! Tenetur dolorem voluptate eligendi iusto odit!</p>
+                </div>
+                <div class="teacher-slide">
+                    <div class="teacher-img">
+                        <img class="img-fluid" src="assets/img/teacher-1.jpg" alt="">
+                        <div class="name">
+                            <h3>Ramesh Chokrabarti</h3>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <p>Geography | M.sc In kolkata</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iste mollitia non eaque minus
+                        accusamus vitae possimus! Tenetur dolorem voluptate eligendi iusto odit!</p>
+                </div>
+                <div class="teacher-slide">
+                    <div class="teacher-img">
+                        <img class="img-fluid" src="assets/img/teacher-3.jpg" alt="">
+                        <div class="name">
+                            <h3>Harish Ch. Roy</h3>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <p>Math | M.sc In kolkata</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iste mollitia non eaque minus
+                        accusamus vitae possimus! Tenetur dolorem voluptate eligendi iusto odit!</p>
+                </div>
+
             </div>
+
         </div>
     </section>
 
@@ -285,9 +385,9 @@
                         illum! Maiores, quibusdam mollitia libero corporis a nobis! Hic?</p>
                 </div>
 
-                <div class="review-slide review-active">
+                <div class="review-slide">
                     <div class="review-img">
-                        <img class="img-fluid" src="assets/img/teacher-1.jpg" alt="">
+                        <img class="img-fluid" src="assets/img/teacher-2.jpg" alt="">
                         <h3>Bishal Debsharma</h3>
                     </div>
                     <hr>
@@ -297,7 +397,17 @@
 
                 <div class="review-slide">
                     <div class="review-img">
-                        <img class="img-fluid" src="assets/img/teacher-1.jpg" alt="">
+                        <img class="img-fluid" src="assets/img/teacher-3.jpg" alt="">
+                        <h3>Bishal Debsharma</h3>
+                    </div>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quo libero fugit sed, similique
+                        illum! Maiores, quibusdam mollitia libero corporis a nobis! Hic?</p>
+                </div>
+
+                <div class="review-slide">
+                    <div class="review-img">
+                        <img class="img-fluid" src="assets/img/teacher-4.jpg" alt="">
                         <h3>Bishal Debsharma</h3>
                     </div>
                     <hr>
@@ -392,13 +502,16 @@
                 <div class="col-md-8 col-sm-12 m-auto">
                     <div class="sports-slider">
                         <div class="sports-slide ">
-                            <img class="img-fluid sports-active" src="assets/img/sports-1.jpg" alt="">
+                            <img class="img-fluid" src="assets/img/sports-1.jpg" alt="">
                         </div>
                         <div class="sports-slide ">
                             <img class="img-fluid" src="assets/img/sports-1.jpg" alt="">
                         </div>
                         <div class="sports-slide ">
                             <img class="img-fluid" src="assets/img/sports-3.jpg" alt="">
+                        </div>
+                        <div class="sports-slide ">
+                            <img class="img-fluid" src="assets/img/sports-1.jpg" alt="">
                         </div>
                         <div class="sports-slide ">
                             <img class="img-fluid" src="assets/img/sports-1.jpg" alt="">
@@ -420,13 +533,13 @@
                     </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo provident aliquid et unde neque
                         sapiente, saepe, minus eaque cum sunt, officia aliquam soluta.</p>
-                        <hr>
-                        <div class="social-link">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
-                            <a href="#"><i class="fab fa-google"></i></a>
-                        </div>
+                    <hr>
+                    <div class="social-link">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-google"></i></a>
+                    </div>
                 </div>
                 <div class="col-md-2 col-sm-12 footer-1">
                     <h3>Quicl links</h3>
