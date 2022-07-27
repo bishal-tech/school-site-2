@@ -115,6 +115,7 @@ span {
 .cta-btn-1:hover {
   font-size: 18px;
   background-color: var(--white);
+  border: 2px solid var(--yellow);
   color: var(--yellow);
   transition: all 0.3s linear;
 }
@@ -156,14 +157,12 @@ span {
 
 
 .banner {
-  /* background-color: #3D3D3D; */
   background-image: url(../img/banner-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
   background-size: 100%;
   position: relative;
-  z-index: -2;
+  z-index: -3;
   padding: 45px 0px;
 }
 
@@ -175,7 +174,7 @@ span {
   top: 0;
   left: 0;
   opacity: 0.5;
-  z-index: -1;
+  z-index: -2;
 }
 
 /* Schortcut btns style here  */
@@ -400,7 +399,7 @@ span {
   color: var(--white);
   right: 220px;
   top: -14px;
-  font-size: 125px;
+  font-size: 148px;
   opacity: 0.20;
 }
 

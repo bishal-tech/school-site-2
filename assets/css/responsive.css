@@ -1,0 +1,93 @@
+@media (max-width: 576px) {}
+
+
+@media (max-width: 768px) {
+    #shotcut-btns {
+        margin-top: -40px;
+    }
+
+    .about-img-slider {
+        margin-top: 40px;
+    }
+
+    .cta-btn-group {
+        width: 340px;
+        left: 11px;
+        top: 125px;
+    }
+
+    .cta-btn-group a {
+        font-size: 30px;
+    }
+
+    .contact .bg-dark {
+        width: 100%;
+    }
+
+    .bg-dark h3 {
+
+        right: 65px;
+        top: -15px;
+        font-size: 87px;
+
+    }
+
+    .sports-slider {
+        margin-top: 45px;
+    }
+
+    .footer-1 {
+        margin-bottom: 40px;
+    }
+}
+
+
+@media (max-width: 992px) {
+
+    h2 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    p,
+    li,
+    a,
+    button,
+    input {
+        font-size: 15px;
+    }
+
+    .cta-btn-group a {
+        font-size: 25px;
+    }
+
+    .cta-btn-group {
+        width: 306px;
+    }
+
+    .gallery-slider img {
+        width: 32%;
+    }
+
+    .bg-dark h3 {
+        right: 174px;
+        top: -26;
+    }
+}
+
+@media (max-width: 1000px) {}
+
+@media (max-width: 1200px) {
+    .gallery-slider img {
+        width: 49%;
+    }
+    .bg-dark h3{
+        font-size: 125px;
+    }
+}
+
+
+@media (max-width: 1400px) {}
