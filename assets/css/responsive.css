@@ -2,6 +2,9 @@
 
 
 @media (max-width: 768px) {
+    .navbar-brand img{
+        width: 140px;
+    }
     #shotcut-btns {
         margin-top: -40px;
     }
@@ -38,7 +41,7 @@
     }
 
     .bg-dark h3 {
-        right: 65px !important;
+        right: 55px !important;
         top: -15px;
         font-size: 87px !important;
 
