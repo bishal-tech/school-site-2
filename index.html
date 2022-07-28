@@ -38,7 +38,7 @@
         <nav class="navbar navbar-expand-lg ">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    School LOGO
+                   <img class="img-fluid" src="assets/img/logo.png" alt="">
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -53,28 +53,24 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Teachers </a>
+                            <a class="nav-link" href="#about">About Us </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Students </a>
+                            <a class="nav-link" href="#teachers">Teachers </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Notice </a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                All Classes
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">10th</a></li>
-                                <li><a class="dropdown-item" href="#">11th</a></li>
-                                <li><a class="dropdown-item" href="#">12th</a></li>
-                            </ul>
+                            <a class="nav-link" href="#gallery">Gallery </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#students">Students </a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cotact">Contact us </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sports">Sports </a>
+                        </li>
+                        
                     </ul>
 
                 </div>
@@ -84,8 +80,10 @@
 
     <!------------------------------ banner section start here  -->
 
-    <section class="banner">
-        <div class="overlay"></div>
+    <section class="banner" id="banner">
+
+        <img class="img-fluid banner-img" src="assets/img/banner-bg.jpg" alt="">
+
         <div class="container py-5">
             <div class="row">
                 <div class="col-md-5 col-sm-12"></div>
@@ -145,7 +143,7 @@
     </section>
 
     <!------------------------------ About section start here  -->
-    <section class="about-sec">
+    <section class="about-sec" id="about">
         <div class="container py-5">
             <div class="row">
                 <div class="col-md-6 col-sm-12 m-auto">
@@ -339,7 +337,7 @@
 
     <!-- Gallery section start here  -->
 
-    <section>
+    <section id="gallery">
         <div class="container py-5">
             <div class="row">
                 <div class="col-md-4 col-sm-12 gl-content">
@@ -365,9 +363,12 @@
             </div>
         </div>
     </section>
-    <!-- Gallery section start here  -->
-    <section id="review-sec">
+
+    <!-- Review section start here  -->
+
+    <section id="review-sec" id="students" >
         <img class="img-fluid qoute-img" src="assets/img/quotes.png" alt="">
+
         <div class="container text-center py-5">
             <p>Review</p>
             <h2>Our <span>Students</span> are <span>say's</span></h2>
@@ -420,7 +421,7 @@
     </section>
     <!-- Number section section start here  -->
 
-    <section id="nuber-sec">
+    <section id="nuber-sec"  >
         <div class="container py-5">
             <div class="row">
                 <div class="col-md-3 col-sm-12 m-auto">
@@ -457,7 +458,7 @@
     </section>
 
     <!-- contct section section start here  -->
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="bg-dark">
             <h3>Contact Us</h3>
         </div>
@@ -489,7 +490,7 @@
         </div>
     </section>
     <!-- Sports section section start here  -->
-    <section>
+    <section id="sports">
         <div class="container py-5">
             <div class="row">
                 <div class="col-md-4 col-sm-12">
@@ -525,11 +526,14 @@
 
 
     <footer>
-        <div class="container pt-5 pb-3">
+        <div class="container pt-5 pb-3 ">
+           
+                <a class="scroll-top" href="#banner"><i class="bi bi-arrow-up-circle"></i></a>
+        
             <div class="row">
                 <div class="col-md-6 col-sm-12 footer-1">
-                    <div class="logo">
-                        <a href="#">LOGO<img src="" alt=""></a>
+                    <div class="logo mb-4">
+                        <a href="#"><img class="img-fluid" src="assets/img/logo.png" alt=""></a>
                     </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo provident aliquid et unde neque
                         sapiente, saepe, minus eaque cum sunt, officia aliquam soluta.</p>
@@ -542,7 +546,8 @@
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-12 footer-1">
-                    <h3>Quicl links</h3>
+                    <h3>Quick links</h3>
+                    <hr>
                     <ul>
                         <li> <a href="#"> Events </a></li>
                         <li> <a href="#"> Gallery </a></li>
@@ -552,6 +557,7 @@
                 </div>
                 <div class="col-md-4 col-sm-12 footer-1">
                     <h3>Contact Now</h3>
+                    <hr>
                     <ul>
                         <li> <a href="#"> Email: info@chs.Com </a></li>
                         <li> <a href="#"> Phone: 1234567890 </a></li>
@@ -559,7 +565,8 @@
                     </ul>
                 </div>
             </div>
-            <small class="text-center">All copyright 2022 are reserved by Bishal Tech Pvt.</small>
+            <hr>
+            <h6 class="text-center mt-4">All copyright 2022 are reserved by <a href="bishaltech.com">Bishal Tech Pvt.</a></h6>
         </div>
     </footer>
 

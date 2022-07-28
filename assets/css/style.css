@@ -148,28 +148,34 @@ span {
   color: var(--yellow);
 }
 
+.navbar-toggler {
+  box-shadow: none !important;
+  margin: auto;
+}
+
+.navbar-toggler i {
+  font-size: 20px;
+  box-shadow: none;
+
+}
+
 /* -------------------------------- Banner section style start here  */
 
 
 .banner {
-  background-image: url(../img/banner-bg.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
   position: relative;
-  z-index: -3;
   padding: 45px 0px;
 }
 
-.overlay {
-  background-color: var(--dark);
+.banner-img {
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0.5;
-  z-index: -2;
+  z-index: -1;
+  filter: brightness(.5);
+
 }
 
 /* Schortcut btns style here  */
@@ -186,9 +192,9 @@ span {
   padding: 20px;
   /* min-height: 220px; */
   text-align: center;
-  z-index: 2;
+  /* z-index: 2; */
   transition: all 0.3s linear;
-/* 
+  /* 
   border-bottom: 3px solid var(--dark);
   border-top: 3px solid var(--dark); */
 
@@ -327,15 +333,13 @@ span {
 /* -------------------------------- Reiew section style start here  */
 
 #review-sec {
-  background-color: ghostwhite;
   position: relative;
-  z-index: -2;
 }
 
 .qoute-img {
   position: absolute;
-  top: -15px;
-  left: 20px;
+  top: 0px;
+  left: 0px;
   z-index: -1;
   width: 350px;
   opacity: 0.03;
@@ -478,6 +482,7 @@ textarea {
   border-top: 4px solid var(--yellow);
 }
 
+/* -------------------------------- Sports section style start here  */
 
 footer {
   background-color: var(--dark);
@@ -498,6 +503,19 @@ footer a:hover {
 
 footer li {
   margin-bottom: 15px;
+}
+
+
+
+.scroll-top {
+
+  bottom: 30px;
+  right: 20px;
+  position: fixed;
+}
+
+.scroll-top i {
+  font-size: 30px;
 }
 
 .social-link {

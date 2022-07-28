@@ -1,3 +1,14 @@
+$(function(){ 
+  var navMain = $(".navbar-collapse");
+
+  navMain.on("click", "a", null, function () {
+      navMain.collapse('hide');
+  });
+});
+
+
+
+
 $(document).ready(function () {
     $(".teacher-slider").slick({
         infinite: true,
