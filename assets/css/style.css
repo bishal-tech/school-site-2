@@ -150,7 +150,6 @@ span {
 
 .navbar-toggler {
   box-shadow: none !important;
-  margin: auto;
 }
 
 .navbar-toggler i {
@@ -294,6 +293,19 @@ span {
 }
 
 /* -------------------------------- Gallery section style start here  */
+#gallery {
+  position: relative;
+}
+
+.g-graphic {
+  position: absolute;
+  position: absolute;
+  top: 10px;
+  left: 229px;
+  width: 170px;
+  z-index: -1;
+}
+
 
 .gallery-slider {
   columns: 3 250px;
@@ -342,7 +354,7 @@ span {
   left: 0px;
   z-index: -1;
   width: 350px;
-  opacity: 0.03;
+  opacity: 0.05;
 }
 
 .review-slider {
@@ -429,6 +441,13 @@ span {
   font-size: 148px;
   opacity: 0.20;
 }
+
+.bg-dark img {
+  position: absolute;
+  right: -190px;
+  top: 130px;
+}
+
 
 .contact-content {
   color: var(--white);

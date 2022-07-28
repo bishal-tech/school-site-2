@@ -10,6 +10,11 @@
         gap: 20px;
     }
 
+    .shotcut-box {
+        width: 290px;
+        margin: auto;
+    }
+
     .about-img-slider {
         margin-top: 40px;
     }
@@ -24,6 +29,10 @@
         font-size: 30px;
     }
 
+    .g-graphic {
+        display: none;
+    }
+
     .contact .bg-dark {
         width: 100%;
     }
@@ -35,12 +44,20 @@
 
     }
 
+    .bg-dark img {
+        display: none;
+        
+    }
+
     .sports-slider {
         margin-top: 45px;
     }
 
     .footer-1 {
         margin-bottom: 40px;
+    }
+    .footer-1 h6{
+        font-size: 15px;
     }
 }
 
@@ -78,6 +95,10 @@
     .bg-dark h3 {
         right: 174px;
         top: -26;
+    }
+    .bg-dark img {
+      right: -130px;
+        
     }
 }
 
