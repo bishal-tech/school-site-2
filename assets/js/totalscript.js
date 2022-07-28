@@ -1,3 +1,4 @@
+//Navbar togal function 
 $(function(){ 
   var navMain = $(".navbar-collapse");
 
@@ -6,8 +7,12 @@ $(function(){
   });
 });
 
-
-
+//Animation js 
+AOS.init({
+  offset:300,
+  duration:1000,
+  
+})
 
 $(document).ready(function () {
     $(".teacher-slider").slick({
