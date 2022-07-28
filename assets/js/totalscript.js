@@ -9,9 +9,9 @@ $(function(){
 
 //Animation js 
 AOS.init({
-  offset:300,
+  offset:200,
   duration:1000,
-  
+
 })
 
 $(document).ready(function () {
