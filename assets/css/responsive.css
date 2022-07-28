@@ -17,7 +17,7 @@
     .cta-btn-group {
         width: 340px;
         left: 11px;
-        top: 125px;
+        top: 125px !important;
     }
 
     .cta-btn-group a {
@@ -29,10 +29,9 @@
     }
 
     .bg-dark h3 {
-
-        right: 65px;
+        right: 65px !important;
         top: -15px;
-        font-size: 87px;
+        font-size: 87px !important;
 
     }
 
