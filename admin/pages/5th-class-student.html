@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
-    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="/admin/css/admin.css">
 
 </head>
 
@@ -136,7 +136,7 @@
 
     <aside class="main-sidebar sidebar-light-yellow elevation-4">
         <!-- Brand Logo -->
-        <a href="../index.html" target="_blank" class="brand-link">
+        <a href="/index.html" target="_blank" class="brand-link">
             <!-- <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8"> -->
             <span class="brand-text font-weight-light">Front Page</span>
@@ -299,206 +299,12 @@
 
     </aside>
 
-
-
-    <!-- Control Sidebar -->
     <div class="content-wrapper">
         <div class="row">
-            <!-- Control sidebar content goes here -->
-            <div class="col-12">
-                <div class="p-3">
-                    <!-- here the number boxes  -->
-                    <div class="row">
-
-                        <div class="col-md-3 col-sm-6">
-                            <div class="small-box bg-primary">
-                                <div class="inner">
-                                    <h3>489</h3>
-                                    <p>Students</p>
-                                </div>
-                                <div class="icon">
-                                    <i class="fas fa-graduation-cap"></i>
-                                </div>
-                                <a href="#" class="small-box-footer">
-                                    More info <i class="fas fa-arrow-circle-right"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6">
-                            <div class="small-box bg-info">
-                                <div class="inner">
-                                    <h3>50</h3>
-                                    <p>Teachers</p>
-                                </div>
-                                <div class="icon">
-                                    <i class="fas fa-chalkboard-teacher"></i>
-                                </div>
-                                <a href="#" class="small-box-footer">
-                                    More info <i class="fas fa-arrow-circle-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="small-box bg-warning">
-                                <div class="inner">
-                                    <h3>15</h3>
-                                    <p>Staffs</p>
-                                </div>
-                                <div class="icon">
-                                    <i class="fas fa-user"></i>
-                                </div>
-                                <a href="#" class="small-box-footer">
-                                    More info <i class="fas fa-arrow-circle-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="small-box bg-gradient">
-                                <div class="inner">
-                                    <h3>120</h3>
-                                    <p>Class Rooms</p>
-                                </div>
-                                <div class="icon">
-                                    <i class="fas fa-users"></i>
-                                </div>
-                                <a href="#" class="small-box-footer">
-                                    More info <i class="fas fa-arrow-circle-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- here the charts  -->
-                    <div class="row">
-                        <div class="col-md-6 col-sm-12">
-                            <div class="card card-primary card-outline">
-                                <div class="card-header">
-                                    <h3 class="card-title">
-                                        <i class="far fa-chart-bar"></i>
-                                        Progress Details
-                                    </h3>
-
-                                    <div class="card-tools">
-                                        <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                                            <i class="fas fa-minus"></i>
-                                        </button>
-                                        <button type="button" class="btn btn-tool" data-card-widget="remove">
-                                            <i class="fas fa-times"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="card-body">
-                                    <!-- here charts -->
-                                    <div id="myChart" style="height: 300px;"></div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12">
-                            <div class="card card-primary card-outline">
-                                <div class="card-header">
-                                    <h3 class="card-title">
-                                        <i class="far fa-chart-bar"></i>
-                                        Prgress Details
-                                    </h3>
-
-                                    <div class="card-tools">
-                                        <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                                            <i class="fas fa-minus"></i>
-                                        </button>
-                                        <button type="button" class="btn btn-tool" data-card-widget="remove">
-                                            <i class="fas fa-times"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="card-body">
-                                    <div id="myChart" style="height: 300px;"></div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- here the tables -->
-                    <div class="card">
-                        <div class="card-header">
-                            <h3 class="card-title">New Admission Students</h3>
-                        </div>
-
-                        <div class="card-body">
-                            <table id="example1" class="table table-bordered table-striped">
-                                <thead>
-                                    <tr>
-                                        <th>Sr.</th>
-                                        <th>Name</th>
-                                        <th>Class</th>
-                                        <th>Roll</th>
-                                        <th>Phone Number</th>
-                                        <th>View Details</th>
-                                    </tr>
-                                </thead>
-
-                                <tbody>
-
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Sima Malakar</td>
-                                        <td>11</td>
-                                        <td>3</td>
-                                        <td>8250968195</td>
-                                        <th><a href="#" class="btn btn-primary">View Details</a></th>
-                                    </tr>
-
-                                    <tr>
-                                        <td>2</td>
-                                        <td>Bishal Debsharma</td>
-                                        <td>12</td>
-                                        <td>10</td>
-                                        <td>8250968195</td>
-                                        <th><a href="#" class="btn btn-primary">View Details</a></th>
-                                    </tr>
-
-                                    <tr>
-                                        <td>3</td>
-                                        <td>Abhijit Sarkar</td>
-                                        <td>31</td>
-                                        <td>4</td>
-                                        <td>8250968195</td>
-                                        <th><a href="#" class="btn btn-primary">View Details</a></th>
-                                    </tr>
-
-                                    <tr>
-                                        <td>4</td>
-                                        <td>Pratik Shaha</td>
-                                        <td>12</td>
-                                        <td>23</td>
-                                        <td>8250968195</td>
-                                        <th><a href="#" class="btn btn-primary">View Details</a></th>
-                                    </tr>
-
-
-
-                                </tbody>
-
-                                <tfoot>
-                                    <tr>
-                                        <th>See more</th>
-
-                                    </tr>
-                                </tfoot>
-                            </table>
-                        </div>
-
-                    </div>
-
-
-
-                </div>
-            </div>
+            <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, natus. Sapiente, id!</h1>
         </div>
     </div>
-    <!-- /.control-sidebar -->
+
 
     <script src="/assets/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -507,7 +313,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 
-   
+
 
 
 </body>
