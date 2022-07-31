@@ -1,0 +1,25 @@
+.elevation-4{
+    box-shadow: none !important;
+}
+.main-sidebar{
+    position: fixed !important;
+}
+.sidebar{
+padding-right: 0px !important;
+}
+.sidebar ul li a i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.nav-sidebar>.nav-item>.nav-link:hover,.nav-sidebar>.nav-item>.nav-link.active {
+   /* color: #fff !important; */
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+
+
+
