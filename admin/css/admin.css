@@ -1,18 +1,17 @@
+/* Nav menus css is here  */
+
 .elevation-4 {
     box-shadow: none !important;
-}
-
-.main-sidebar {
-    /* position: fixed !important; */
 }
 
 .sidebar {
     padding-right: 0px !important;
 }
 
-.sidebar ul li a i {
+.sidebar ul li a ion-icon {
     margin-right: 10px;
     font-size: 20px;
+    margin-bottom: -5px;
 }
 
 .nav-sidebar>.nav-item.menu-open>.nav-link,
