@@ -376,7 +376,7 @@
                                 <div class="card-header">
                                     <h3 class="card-title">
                                         <i class="far fa-chart-bar"></i>
-                                        Progress Details
+                                        Admission Chart
                                     </h3>
 
                                     <div class="card-tools">
@@ -388,9 +388,10 @@
                                         </button>
                                     </div>
                                 </div>
+
+                                <!-- here charts -->
                                 <div class="card-body">
-                                    <!-- here charts -->
-                                    <div id="myChart" style="height: 300px;"></div>
+                                    <canvas id="admission" ></canvas>
                                 </div>
 
                             </div>
@@ -400,7 +401,7 @@
                                 <div class="card-header">
                                     <h3 class="card-title">
                                         <i class="far fa-chart-bar"></i>
-                                        Prgress Details
+                                        Sells Chart
                                     </h3>
 
                                     <div class="card-tools">
@@ -412,12 +413,15 @@
                                         </button>
                                     </div>
                                 </div>
+
+                                <!-- here charts -->
                                 <div class="card-body">
-                                    <div id="myChart" style="height: 300px;"></div>
+                                    <canvas id="book_sells" ></canvas>
                                 </div>
 
                             </div>
                         </div>
+                        
                     </div>
 
                     <!-- here the tables -->
@@ -498,17 +502,19 @@
             </div>
         </div>
     </div>
-    <!-- /.control-sidebar -->
 
     <script src="/assets/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <!-- ADminLTE CDN  -->
     <script src="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/js/adminlte.min.js"></script>
+    <!-- Chart CDN -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
+    <!-- IONicon CDn -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+    
+    <script src="/admin/js/admin.js"></script>
 
 
 </body>

@@ -18,7 +18,6 @@
 .nav-sidebar>.nav-item>.nav-link:hover,
 .nav-sidebar>.nav-item>.nav-link.active,
 .nav-item .menu-is-opening .menu-open a .active {
-    /* color: #fff !important; */
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 0px;
